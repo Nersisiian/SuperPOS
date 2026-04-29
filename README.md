@@ -1,25 +1,32 @@
-# ?? SuperPOS — Next-Gen Supermarket System
+# 🛒 SuperPOS — Next-Gen Supermarket System
 
-[![CI](https://github.com/Nersisiian/SuperPOS/actions/workflows/ci.yml/badge.svg)](https://github.com/YOUR_USERNAME/SuperPOS/actions)
+[![CI](https://github.com/Nersisiian/SuperPOS/actions/workflows/ci.yml/badge.svg)](https://github.com/Nersisiian/SuperPOS/actions)
+[![CodeQL](https://github.com/Nersisiian/SuperPOS/actions/workflows/codeql.yml/badge.svg)](https://github.com/Nersisiian/SuperPOS/actions)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Docker](https://img.shields.io/badge/Docker-Ready-blue)](https://www.docker.com/)
 
 **Production-ready point-of-sale system with offline mode, barcode/QR scanning, analytics dashboard, and Docker support.**
 
-![SuperPOS Dashboard](screenshots/dashboard.png)  *(äîáàâèøü ñêðèíøîò ïîçæå)*
+## 📸 Screenshots
 
-## ?? Features
-- ?? **Cashier terminal** (React + Vite) with keyboard-emulated barcode/QR scanner
-- ?? **Admin panel** with product management and sales dashboard
-- ?? **Analytics**: daily revenue chart, top products, summary stats
-- ?? **Offline mode**: IndexedDB cache, auto-sync pending receipts
-- ?? **Promo engine** (buy X get Y, percent discounts)
-- ?? **Docker Compose** for one-command start
-- ?? **CI/CD** via GitHub Actions
-- ??? **SQLite** (better-sqlite3 / sql.js) – zero configuration
+| Dashboard | Admin Panel | Cashier |
+|-----------|-------------|---------|
+| ![Dashboard](screenshots/superpos_dashboard.png) | ![Admin](screenshots/superpos_admin.png) | ![Cashier](screenshots/superpos_casier.png) |
 
-##  Quick Start
-### With Docker
+## 🚀 Features
+
+- 🧾 **Cashier terminal** (React + Vite) — keyboard-emulated barcode/QR scanner
+- 📊 **Admin panel** — product management and sales dashboard
+- 📈 **Analytics** — daily revenue chart, top products, summary stats
+- 📡 **Offline mode** — IndexedDB cache, auto-sync pending receipts
+- 🎯 **Promo engine** — buy X get Y, percent discounts
+- 🐳 **Docker Compose** — one-command start
+- ⚙️ **CI/CD** — GitHub Actions + CodeQL security analysis
+- 🗃️ **SQLite** (sql.js) — zero configuration, works in any environment
+
+## 🏁 Quick Start
+
+### With Docker (recommended)
 ```bash
 docker-compose up -d
 API: http://localhost:3000
@@ -27,6 +34,7 @@ API: http://localhost:3000
 Cashier: http://localhost:5173
 
 Admin: http://localhost:3001
+
 # Terminal 1 – backend
 cd backend && npm install && npm run start:dev
 
@@ -35,15 +43,17 @@ cd pos-client && npm install && npm run dev
 
 # Terminal 3 – admin panel
 cd admin-panel && npm install && npm run dev
-?? Documentation
-Architecture
+```
+## 📚 Documentation
 
-API Reference
+- Architecture
+- API Reference
+- Hardware setup
 
-Hardware setup
+## 🤝 Contributing
 
-?? Contributing
-Pull requests are welcome. Please read CONTRIBUTING.md first.
+Pull requests are welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 
-?? License
-MIT License. See LICENSE for details.
+## 📄 License
+
+This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
