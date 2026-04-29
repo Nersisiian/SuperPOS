@@ -1,12 +1,12 @@
-# ?? SuperPOS — Next-Gen Supermarket System
+# ?? SuperPOS â€” Next-Gen Supermarket System
 
-[![CI](https://github.com/YOUR_USERNAME/SuperPOS/actions/workflows/ci.yml/badge.svg)](https://github.com/YOUR_USERNAME/SuperPOS/actions)
+[![CI](https://github.com/Nersisiian/SuperPOS/actions/workflows/ci.yml/badge.svg)](https://github.com/YOUR_USERNAME/SuperPOS/actions)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Docker](https://img.shields.io/badge/Docker-Ready-blue)](https://www.docker.com/)
 
 **Production-ready point-of-sale system with offline mode, barcode/QR scanning, analytics dashboard, and Docker support.**
 
-![SuperPOS Dashboard](screenshots/dashboard.png)  *(äîáàâèøü ñêðèíøîò ïîçæå)*
+![SuperPOS Dashboard](screenshots/dashboard.png)  *(Ã¤Ã®Ã¡Ã Ã¢Ã¨Ã¸Ã¼ Ã±ÃªÃ°Ã¨Ã­Ã¸Ã®Ã² Ã¯Ã®Ã§Ã¦Ã¥)*
 
 ## ?? Features
 - ?? **Cashier terminal** (React + Vite) with keyboard-emulated barcode/QR scanner
@@ -16,9 +16,9 @@
 - ?? **Promo engine** (buy X get Y, percent discounts)
 - ?? **Docker Compose** for one-command start
 - ?? **CI/CD** via GitHub Actions
-- ??? **SQLite** (better-sqlite3 / sql.js) – zero configuration
+- ??? **SQLite** (better-sqlite3 / sql.js) â€“ zero configuration
 
-## ?? Quick Start
+##  Quick Start
 ### With Docker
 ```bash
 docker-compose up -d
@@ -27,13 +27,13 @@ API: http://localhost:3000
 Cashier: http://localhost:5173
 
 Admin: http://localhost:3001
-# Terminal 1 – backend
+# Terminal 1 â€“ backend
 cd backend && npm install && npm run start:dev
 
-# Terminal 2 – pos client
+# Terminal 2 â€“ pos client
 cd pos-client && npm install && npm run dev
 
-# Terminal 3 – admin panel
+# Terminal 3 â€“ admin panel
 cd admin-panel && npm install && npm run dev
 ?? Documentation
 Architecture
