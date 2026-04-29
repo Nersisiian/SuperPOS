@@ -6,9 +6,9 @@ Want to help making SuperPOS even better? Here’s how you can contribute.
 ## 📘 Table of Contents
 - [Code of Conduct](#code-of-conduct)
 - [How Can I Contribute?](#how-can-i-contribute)
-  - [Reporting Bugs](#reporting-bugs)
-  - [Suggesting Enhancements](#suggesting-enhancements)
-  - [Pull Requests](#pull-requests)
+- [Reporting Bugs](#reporting-bugs)
+- [Suggesting Enhancements](#suggesting-enhancements)
+- [Pull Requests](#pull-requests)
 - [Development Setup](#development-setup)
 - [Project Structure](#project-structure)
 - [Coding Guidelines](#coding-guidelines)
