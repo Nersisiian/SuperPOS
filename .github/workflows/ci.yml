@@ -16,7 +16,7 @@ jobs:
           node-version: 20
       - working-directory: backend
         run: |
-          npm ci
+          npm install
           npm run build --if-present
 
   build-pos-client:
@@ -28,7 +28,7 @@ jobs:
           node-version: 20
       - working-directory: pos-client
         run: |
-          npm ci
+          npm install
           npm run build
 
   build-admin-panel:
@@ -40,5 +40,5 @@ jobs:
           node-version: 20
       - working-directory: admin-panel
         run: |
-          npm ci
+          npm install
           npm run build
