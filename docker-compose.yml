@@ -1,0 +1,23 @@
+services:
+  backend:
+    build: ./backend
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./backend/src:/app/src
+    environment:
+      - NODE_ENV=development
+  pos-client:
+    build: ./pos-client
+    ports:
+      - "5173:5173"
+    volumes:
+      - ./pos-client/src:/app/src
+  admin-panel:
+    build: ./admin-panel
+    ports:
+      - "3001:3001"
+    volumes:
+      - ./admin-panel/src:/app/src
+    environment:
+      - VITE_API_URL=http://backend:3000
